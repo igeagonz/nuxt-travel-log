@@ -19,17 +19,8 @@ export default withNuxt(
     },
     {
       rules: {
-        "vue/max-attributes-per-line": [
-          "error",
-          {
-            singleline: {
-              max: 2,
-            },
-            multiline: {
-              max: 1,
-            },
-          },
-        ],
+        "vue/singleline-html-element-content-newline": "off",
+        "vue/html-self-closing": "off",
         "ts/no-redeclare": "off",
         "ts/consistent-type-definitions": ["error", "type"],
         "no-console": ["warn"],
