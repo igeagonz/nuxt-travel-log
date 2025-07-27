@@ -1,4 +1,5 @@
-# Nuxt Travel log 
+# Nuxt Travel log
+
 A Nuxt app that serves as a travel log
 
 ## Setup
